@@ -12,26 +12,44 @@
         <h1> Jeffrey </h1>
         <p>Web Developer</p>
     </header>
- 
-    <section>
-        <img src="jep.png" class="img-fluid" alt="jep">
-        <h2>About Me</h2>
-        <p>
-            Welcome to my profile! I am a passionate web developer with a keen interest in creating
-            responsive and user-friendly websites. My skills include HTML, CSS, and JavaScript.
-            I enjoy turning complex problems into simple, beautiful, and intuitive designs.
-        </p>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Responsive Design</li>
-            <li>Web Development</li>
-        </ul>
+    <img src="jep.png" class="img-fluid" alt="jep">
 
-        <h2>Education</h2>
-        <p>Bachelor Of Science In Information Technology - PATEROS TECHNOLOGICAL COLLEGE (2024)</p>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea"></label>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+              <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">ABOUT ME</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Skills</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Education</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+              </div>
+            </div>
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                <h4 id="list-item-1">ABOUT ME</h4>
+                <p>Welcome to my profile! I am a passionate web developer with a keen interest in creating
+                        responsive and user-friendly websites. My skills include HTML, CSS, and JavaScript.
+                        I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+                <h4 id="list-item-2">Skills</h4>
+                <p> 
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Responsive Design</li>
+                        <li>Web Development</li>
+                    </ul></p>
+                <h4 id="list-item-3">Education</h4>
+                <p>Bachelor Of Science In Information Technology - PATEROS TECHNOLOGICAL COLLEGE (2024)</p>
+                <h4 id="list-item-4">Item 4</h4>
+                <p>...</p>
+              </div>
+            </div>
+        </div>
 
         <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -41,18 +59,6 @@
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">Password</label>
           </div>
-
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Comments</label>
-          </div>
-
-        <h2>Projects</h2>
-        <p>
-            <strong>Project 1:</strong> Responsive Portfolio Website<br>
-            <strong>Project 2:</strong> To-Do List App with JavaScript<br>
-            <strong>Project 3:</strong> Blog Website with CMS
-        </p>
-    </section>
 </body>
+
 </html>
