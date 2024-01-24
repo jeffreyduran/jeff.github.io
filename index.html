@@ -1,26 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jeffrey</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>final project</title>
+  </head>
+  <body>
     
-</head>
-<body>
-
     <header>
         <h1> Jeffrey </h1>
         <p>Web Developer</p>
     </header>
-
+ 
     <section>
+        <img src="jep.png" class="img-fluid" alt="jep">
         <h2>About Me</h2>
         <p>
             Welcome to my profile! I am a passionate web developer with a keen interest in creating
             responsive and user-friendly websites. My skills include HTML, CSS, and JavaScript.
             I enjoy turning complex problems into simple, beautiful, and intuitive designs.
         </p>
-
         <h2>Skills</h2>
         <ul>
             <li>HTML</li>
@@ -33,9 +33,19 @@
         <h2>Education</h2>
         <p>Bachelor Of Science In Information Technology - PATEROS TECHNOLOGICAL COLLEGE (2024)</p>
 
-        <h2>Contact</h2>
-        <p>Email: jeff.email@example.com</p>
-        <p>LinkedIn: linkedin.com/in/jeff25</p>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
 
         <h2>Projects</h2>
         <p>
@@ -44,10 +54,5 @@
             <strong>Project 3:</strong> Blog Website with CMS
         </p>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Jeffrey</p>
-    </footer>
-
 </body>
 </html>
